@@ -1,0 +1,7 @@
+name: "waterplanet"
+author: "arc"
+displayName: "waterplanet"
+description: "waterplanet"
+version: "2.0"
+minGameVersion: 145.1
+hidden: false
