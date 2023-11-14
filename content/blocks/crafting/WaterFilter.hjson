@@ -1,0 +1,31 @@
+
+type: GenericCrafter
+name: WaterFilter
+description: "Making a Seed of potate."
+itemCapacity: 50
+outputItem: {
+	items: [
+		"copper/10"
+	]
+}
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+
+consumes: {
+	items: [
+		"copper/10"
+	]
+}
+requirements: [
+		surge-alloy/30 
+		titanium/80 
+		silicon/50 
+		copper/50
+	]
+
+category: crafting
+research: Salt-Maker
+alwaysUnlocked: true
