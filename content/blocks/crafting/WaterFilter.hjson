@@ -1,7 +1,6 @@
-
 type: GenericCrafter
 name: WaterFilter
-description: "Making a Seed of potate."
+description: "Make sand from water."
 itemCapacity: 50
 outputItem: {
 	items: [
