@@ -10,13 +10,13 @@ size: 2,
 hasPower: true
 hasItems: true
 craftTime: 60
-updateEffect: smeltsmoke,
+updateEffect: smeltsmoke
 
 consumes: {
 	items: [
 		"copper/10"
 	]
-},
+}
 requirements": [
 lead/40
 titanium/40
