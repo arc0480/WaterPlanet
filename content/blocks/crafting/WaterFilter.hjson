@@ -5,7 +5,7 @@ description: "Making a Seed of potate."
 itemCapacity: 50
 outputItem: {
 	items: [
-		"copper/10"
+		"sand/10"
 	]
 }
 size: 2
@@ -15,9 +15,10 @@ craftTime: 60
 updateEffect: smeltsmoke
 
 consumes: {
-	items: [
-		"copper/10"
-	]
+	 liquid: {
+	    liquid: water
+	    amount: 0.25
+  	}
 }
 requirements: [
 		surge-alloy/30 
