@@ -4,7 +4,9 @@ name: WaterFilter
 description: "Making a Seed of potate."
 itemCapacity: 50
 outputItem: {
-	Sand/10
+	items: [
+		"Sand/10"
+	]
 }
 size: 2,
 hasPower: true
@@ -17,12 +19,12 @@ consumes: {
 		"copper/10"
 	]
 }
-requirements": [
-lead/40
-titanium/40
-silicon/40
-copper/40
-]
+requirements: [
+		surge-alloy/30 
+		titanium/80 
+		silicon/50 
+		copper/50
+	]
 
 category: crafting
 research: Salt-Maker
