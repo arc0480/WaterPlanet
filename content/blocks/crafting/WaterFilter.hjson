@@ -2,9 +2,11 @@ type: GenericCrafter
 name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
-outputItem: [
-	Sand/10
-]
+outputItem: {
+	items: [
+		Sand/10
+	]	
+}
 size: 2
 hasPower: true
 hasItems: true
@@ -12,14 +14,17 @@ craftTime: 60
 updateEffect: smeltsmoke
 
 consumes: [
-	water/0.25
+	liquid: {
+		liquid: water
+		amount: 0.1
+  	}
 ]
 requirements: [
-		surge-alloy/30 
-		titanium/80 
-		silicon/50 
-		copper/50
-	]
+	surge-alloy/30 
+	titanium/80 
+	silicon/50 
+	copper/50
+]
 
 category: crafting
 research: Salt-Maker
