@@ -13,12 +13,11 @@ hasItems: true
 craftTime: 60
 updateEffect: smeltsmoke
 
-consumes: [
-	liquid: {
-		liquid: water
-		amount: 0.1
-  	}
-]
+consumes: {
+	liquid: [
+		water/0.1
+  	]
+}
 requirements: [
 	surge-alloy/30 
 	titanium/80 
