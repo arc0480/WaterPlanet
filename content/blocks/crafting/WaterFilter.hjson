@@ -2,7 +2,7 @@ type: GenericCrafter
 name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
-outputItem: [
+outputItems: [
 	sand/10
 ]
 size: 2
