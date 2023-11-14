@@ -2,7 +2,7 @@ type: GenericCrafter
 name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
-outputItem: [	
+outputItem: [
 	Sand/10
 ]
 size: 2
@@ -11,12 +11,9 @@ hasItems: true
 craftTime: 60
 updateEffect: smeltsmoke
 
-consumes: {
-	 liquid: {
-	    liquid: water
-	    amount: 0.25
-  	}
-}
+consumes: [
+	water/0.25
+]
 requirements: [
 		surge-alloy/30 
 		titanium/80 
