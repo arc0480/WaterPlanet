@@ -4,7 +4,7 @@ description: "Make sand from water."
 itemCapacity: 50
 outputItem: {
 	items: [
-		sand/10
+		Sand/10
 	]
 }
 size: 2
