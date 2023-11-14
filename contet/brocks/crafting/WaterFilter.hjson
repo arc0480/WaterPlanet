@@ -5,10 +5,10 @@ description: "Making a Seed of potate."
 itemCapacity: 50
 outputItem: {
 	items: [
-		"Sand/10"
+		"copper/10"
 	]
 }
-size: 2,
+size: 2
 hasPower: true
 hasItems: true
 craftTime: 60
