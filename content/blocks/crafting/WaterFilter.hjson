@@ -14,9 +14,10 @@ craftTime: 60
 updateEffect: smeltsmoke
 
 consumes: {
-	liquid: [
-		water/0.1
-  	]
+	liquid: {
+		liquid: oil
+		amount: 0.1
+	}
 }
 requirements: [
 	surge-alloy/30 
