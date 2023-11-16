@@ -3,15 +3,10 @@ name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
 
-separator:[
-	sand
-	titanium
+outputItems: [
+	sand/10
+	titanium/1
 ]
-
-//outputItems: [
-	//sand/10
-	//titanium/1
-//]
 size: 2
 hasPower: true
 hasItems: true
