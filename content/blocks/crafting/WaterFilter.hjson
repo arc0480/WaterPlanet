@@ -4,7 +4,7 @@ description: "Make sand from water."
 itemCapacity: 50
 outputItems: [
 	sand/1
-　titanium/0.05
+	titanium/0.05
 ]
 size: 2
 hasPower: true
