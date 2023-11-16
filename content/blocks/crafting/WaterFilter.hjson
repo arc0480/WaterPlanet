@@ -3,7 +3,10 @@ name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
 outputItems: [
-	sand/1
+	sand
+　titanium
+	silicon
+	copper
 ]
 size: 2
 hasPower: true
