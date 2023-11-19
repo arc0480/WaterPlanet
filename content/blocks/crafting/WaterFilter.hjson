@@ -30,8 +30,5 @@ category: crafting
 research: Salt-Maker
 alwaysUnlocked: true
 
-results: [
-    sand/500
-    titanium/200
-]
+
 
