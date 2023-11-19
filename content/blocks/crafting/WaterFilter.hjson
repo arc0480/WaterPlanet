@@ -11,7 +11,7 @@ outputItems: [
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 600
+craftTime: 10
 updateEffect: smeltsmoke
 
 consumes: {
@@ -30,5 +30,9 @@ category: crafting
 research: Salt-Maker
 alwaysUnlocked: true
 
+results: [
+    copper/30
+    titanium/10
+]
 
 
