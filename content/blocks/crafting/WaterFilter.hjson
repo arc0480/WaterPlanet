@@ -1,4 +1,5 @@
-type: GenericCrafter
+//type: GenericCrafter
+type: Separator
 name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
@@ -28,3 +29,9 @@ requirements: [
 category: crafting
 research: Salt-Maker
 alwaysUnlocked: true
+
+results: [
+    sand/500
+    titanium/200
+]
+
