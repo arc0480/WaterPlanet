@@ -4,10 +4,10 @@ name: WaterFilter
 description: "Make sand from water."
 itemCapacity: 50
 
-outputItems: [
-	sand/10
-	titanium/1
-]
+//outputItems: [
+//sand/10
+//titanium/1
+//]
 size: 2
 hasPower: true
 hasItems: true
@@ -30,6 +30,7 @@ category: crafting
 research: Salt-Maker
 alwaysUnlocked: true
 
+//搬出アイテム？
 results: [
     copper/30
     titanium/10
